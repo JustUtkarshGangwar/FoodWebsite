@@ -22,42 +22,39 @@
                 margin-right: 50px;
                 float: right;
                 color: aliceblue;
+                cursor: none;
+                transition: .8s;
             }
-            .topright h4{
+            .topright h2{
                 margin-left: 50px;
                 float: left;
                 color: aliceblue;
+                cursor: none;
+                transition: .8s;
             }
-            /* .main{
-                height: 50vh;
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                width: 90%;
-                border: 5px solid blue;
-                margin: auto;
-                height: 80vh;
+            .topleft h4:hover,.topright h2:hover{
+                border: 2px solid blue;
+                background-color: blue;
+                font-size: 25px;
             }
-            ul{
-                list-style: none;
+            .menu{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 20px;
             }
-            li{
+            .miteam{
                 margin: 10px;
-                font-size: 30px;
-                color: rgb(240, 229, 214);
             }
-            .left{
+            .aimage{
                 float: left;
-                width: 50%;
-                text-align: center;
+                width: 30%;
             }
-            .right{
-                float: right;
-                width: 50%;
-                text-align: center;
-            } */
-            
+            .atext{
+                padding: 10px;
+                /* float: right; */
+                opacity: .7;
+                word-spacing: 5px;
+            }
         </style>
     </head>
     <body>
@@ -69,26 +66,42 @@
                 <h4>Home</h4>
             </div>
             <div class="topright">
-                <h4>geak Restaurant</h4>
+                <h2>Geak Restaurant</h2>
             </div>
             <br>
+            <br>.
             <br>
             <br>
-            <h1 style="color: azure;">welcome to geak Restaurant</h1>
+            <h1 style="color: azure;">Welcome to Geak Restaurant</h1>
+            <h4 style="color: azure; font-style: italic;">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</h4>
         </div>
 
         <div class="menu">
+            <div class="miteam"><img src="image/DalMakhanijpg.jpg"><br>Dal Makhani</div>
+            <div class="miteam"><img src="image/PaneerButterMasala.jpg"/><br>Paneer Butter Masala</div>
+            <div class="miteam"><img src="image/DalTadka.jpg"/><br>Dal Tadka</div>
+            <div class="miteam"><img src="image/GrilledPaneerTikka.jpg"/><br>Grilled Paneer Tikka</div>
+            <div class="miteam"><img src="image/TawaPaneer.jpg"/><br>Tawa Paneer</div>
+            <div class="miteam"><img src="image/KadaiPaneer.jpg"/><br>Kadai Paneer</div>
+            <div class="miteam"><img src="image/BesanLadoo.jpg"/><br>Besan Ladoo</div>
+            <div class="miteam"><img src="image/CarrotHalwa.jpg"/><br>Carrot Halwa</div>
+        </div>
+
+        <div class="about">
+            <div class="aimage">
+                <img src="image/Restaurant.jpg" alt="Restaurant image"width=100%>
+            </div>
+
+            <div class="atext">
+                <h1>About Geak Restaurant</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Nunc non blandit massa enim nec dui nunc mattis enim. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Nunc non blandit massa enim nec.
+                    <br><br>
+                    Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Sit amet cursus sit amet dictum. Nec ullamcorper sit amet risus nullam eget felis eget nunc. 
+                    Scelerisque purus semper eget duis at tellus at. Sed turpis tincidunt id aliquet risus. At volutpat diam ut venenatis tellus in metus vulputate eu. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit.</p>
+            </div>
 
         </div>
-         
-          <p>
-              To heare music you need to turn on the 
-              <a href="https://support.mozilla.org/en-US/kb/block-autoplay">auto play</a> 
-              and try to open it on firefox
-            </p>
-          <p style="color: aliceblue;">video is on burger tab</p>
-
-
         
         <audio autoplay src="data/backgroungMusic.mp3"></audio>
     
